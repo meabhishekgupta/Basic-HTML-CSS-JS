@@ -2,3 +2,47 @@
     padding: 0;
     margin: 0;
 }
+
+/* CSS for NavBar */
+
+nav{
+    display: flex;
+    padding: 2vh 5vw;
+    background-color: #33006F;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    padding: 5px 10px;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+nav button{
+    padding: 10px 30px;
+    background-color: #800080;
+    color: white;
+}
+
+
+/* CSS for Main Body */
+
+main{
+    padding: 1vh 5vw;
+}
+
+/* CSS for Footer */
+
+footer{
+    padding: 1.5vh 5vw;
+    background-color: #662d91;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
